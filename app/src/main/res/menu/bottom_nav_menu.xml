@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_icon_silhouette_svgrepo_com"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/berita"
+        android:title="Berita"
+        android:icon="@drawable/ic_news_svgrepo_com"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/kontak"
+        android:title="Kontak"
+        android:icon="@drawable/ic_contact_svgrepo_com"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/Profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile_user_svgrepo_com"
+        app:showAsAction="always"/>
+</menu>
