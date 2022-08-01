@@ -8,6 +8,8 @@ import androidx.fragment.app.Fragment
 import com.iglo.jmo.R
 import com.iglo.jmo.activity.fragment.BeritaFragment
 import com.iglo.jmo.activity.fragment.HomeFragment
+import com.iglo.jmo.activity.fragment.KontakFragment
+import com.iglo.jmo.activity.fragment.ProfileFragment
 import com.iglo.jmo.databinding.LayoutMenuBinding
 
 class MenuActivity : AppCompatActivity() {
@@ -24,6 +26,8 @@ class MenuActivity : AppCompatActivity() {
 
         val homeFragment = HomeFragment()
         val beritaFragment = BeritaFragment()
+        val kontakFragment = KontakFragment()
+        val profileFragment = ProfileFragment()
 
         setCurrentFragment(homeFragment)
 
@@ -31,7 +35,8 @@ class MenuActivity : AppCompatActivity() {
             when(it.itemId){
                 R.id.home->setCurrentFragment(homeFragment)
                 R.id.berita->setCurrentFragment(beritaFragment)
-
+                R.id.kontak->setCurrentFragment(kontakFragment)
+                R.id.profile->setCurrentFragment(profileFragment)
             }
             true
         }
